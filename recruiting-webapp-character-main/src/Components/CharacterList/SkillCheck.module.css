@@ -1,0 +1,58 @@
+.SkillCheck{
+    margin:auto;
+    margin-bottom:20px;
+    padding:20px;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(255, 255, 255, 0.2);
+    position:relative;
+}
+
+.SkillCheckTitle{
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+}
+
+.SkillCheckContent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:30px;
+}
+
+.SkillCheckDropdown{
+    margin-right:5px;
+}
+
+.SkillCheckDropdown label{
+    margin-right:5px;
+}
+
+.DCInput{
+    margin-right:5px;
+}
+
+.DCInput label{
+    margin-right:5px;
+}
+
+.SkillCheckResult{
+    display: flex;
+    flex-flow: column;
+}
+
+.DeleteCharacter{
+    position: absolute;
+    right:20px;
+    top:20px;
+    transition:0.3s;
+}
+
+.DeleteCharacter:hover{
+    color:red;
+    transform: rotate(1turn);
+}

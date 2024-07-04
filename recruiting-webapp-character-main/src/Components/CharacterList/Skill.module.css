@@ -1,0 +1,13 @@
+.SkillList{
+    min-width:420px;
+}
+
+.SkillItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillName{
+    width:300px;
+    display: flex;
+}

@@ -1,0 +1,8 @@
+.AttributeList{
+    min-width:260px;
+}
+
+.AttributeItem{
+    display: flex;
+    justify-content: space-between;
+}
